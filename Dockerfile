@@ -1,6 +1,7 @@
 FROM ubuntu:23.04
 
 # Install SteamCMD
+RUN apt install -y software-properties-common
 RUN add-apt-repository -y multiverse
 RUN dpkg --add-architecture i386
 RUN apt update -y
