@@ -1,4 +1,4 @@
-FROM steamcmd:ubuntu-22
+FROM steamcmd/steamcmd:ubuntu-22
 
 WORKDIR /space-engineers-ds
 
