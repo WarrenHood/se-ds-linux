@@ -1,0 +1,5 @@
+services:
+  se-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
