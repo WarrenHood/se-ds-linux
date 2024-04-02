@@ -4,7 +4,7 @@ FROM ubuntu:23.04
 RUN apt update -y
 
 # Install SteamCMD
-RUN apt install -y software-properties-common
+RUN apt install -y software-properties-common lib32gcc-s1
 RUN add-apt-repository -y multiverse
 RUN dpkg --add-architecture i386
 RUN apt update -y
