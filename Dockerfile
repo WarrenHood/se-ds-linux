@@ -1,5 +1,8 @@
 FROM ubuntu:23.04
 
+# Update the system
+RUN apt update -y
+
 # Install SteamCMD
 RUN apt install -y software-properties-common
 RUN add-apt-repository -y multiverse
